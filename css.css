@@ -1,40 +1,43 @@
-body{ margin: 0; width: 100% ;background-image: url(FOTO2/F1.jpg); background-repeat: no-repeat;background-size: cover; background-attachment: fixed;font-family: 'Open Sans', sans-serif; }
+body{ margin: 0; width: 100% ;background-color: #2687 }
 p{font-size: 22px; padding: 50px; line-height: 2;}
 .container{width: 80%; margin-left: 10%; margin-right: 10%; box-shadow: 0 0 10px 10px black}
+.header{width: 100%;}
 .div1{width: 100%;float: left; margin: 0%; background-color: rgba(333, 333, 333, 0.8);}
-video{width: 96%; margin-left: 2%; margin-right: 2%; margin-bottom: 5%; margin-top: 8%; float: left;}
-.div2{width: 100%; background-color: rgba(333, 333, 333, 0.8); float: left;}
-h1{text-align: center; box-shadow: 0 1px 5px 1px grey;  background-color:  #2687; padding: 20px;   font-size: 70px;  color: orange;  text-shadow: 4px 4px 8px #333;margin-top: 0%;  margin-bottom: 2%; margin-left:0%; margin-right: 0%;}
+video{width: 80%; margin-left: 10%; margin-right: 10%; margin-bottom: 5%; margin-top: 8%; float: left;}
+.div2{width: 100%; background-color: rgba(333, 333, 333, 0.8);float: left;}
+.div3{width: 100%; background-color: rgba(333, 333, 333, 0.8); float: left;}
+h1{text-align: center; background-color: white;  padding: 20px;   font-size: 70px;  color: orange;  text-shadow: 4px 4px 8px #333;margin-top: 4%;  margin-bottom: 4%; box-shadow: 0 10px 5px 5px grey; margin-right: 0%;}
 iframe{width: 21.1%; margin-left: 1.8%;margin-right: 1.8%; height: 700px;}
 .aNav{background-color: orange; font-size: 25px; border-radius: 40px; color: black; text-align: center;text-decoration: none; padding-top: 10px; padding-bottom: 10px; float: right; width: 10%; margin-right: 5%; margin-left: 1%;margin-top: 1%; margin-bottom: 1%;}
 .aNav:hover{ background-color: #3b5998; color: white; }
-.nav {   width: 100%; background-color: rgba(333, 333, 333, 0.8);   position: fixed;   box-shadow: 0 1px 20px 5px grey;   left: 0;  top: 0;}
+.nav {   width: 100%; background-color: white;   position: fixed;   box-shadow: 0 1px 20px 5px grey;   left: 0;  top: 0;}
 .logo{float: left;width: 10%; margin-right: 5%; margin-left: 1%;margin-top: 1%; margin-bottom: 1%;}
 .footer{background-color: #333; width: 100%; float: left; }
 .divAccordion{padding-bottom: 2%; 	width: 100%; float: left; background-color: rgba(333, 333, 333, 0.8);}
-.accordion {  background-color: white;  color: #444; font-size: 40px; cursor: pointer;  padding: 18px;  width: 96%; margin-right: 2%;margin-left: 2%; text-align: center;  border: none;  outline: none;  transition: 0.4s;}
+.accordion {  background-color: white;  color: #444; font-size: 40px; cursor: pointer;  padding: 18px;  width: 80%; margin-right:10%;margin-left: 10%; text-align: center;  border: none;  outline: none;  transition: 0.4s;}
 .active, .accordion:hover {background-color: #2687; color: black}
-.panel { background-color: white; width: 96%; margin-right: 2%;margin-left: 2%;margin-bottom: 0%;   display: none;  overflow: hidden; text-align: center;}
+.panel { background-color: white; width: 80%; margin-right:10%;margin-left: 10%;margin-bottom: 0%;   display: none;  overflow: hidden; text-align: center;}
 .chat{width:auto; background-color:  #3b5998; text-decoration: none;  margin-left: 2%; border-radius: 30px; color: white; padding: 20px;}
 @media only screen and (max-width: 1000px) {
 
 body{ margin: 0; width: 100% ;background-image: url(FOTO2/F1.jpg); background-repeat: no-repeat;background-size: cover; background-attachment: }
+p{font-size: 33px; padding: 50px; line-height: 2;}
 .container{width: 100%;margin: 0%}
 .div1{width: 100%; float: left; margin: 0%;}
 video{width: 96%; height: 800px; margin-left: 2%; margin-right: 2%; margin-bottom: 10%; margin-top: 15%; float: left;}
 .div2{width: 100%; background-color: rgba(333, 333, 333, 0.8); float: left;}
-h1{text-align: center; background-color: #2687;; font-size: 70px; padding: 60px; color: orange;  text-shadow: 4px 4px 8px #333;margin-top: 0%;   margin-left:0%; margin-right: 0%;}
+h1{text-align: center;  box-shadow: 0 10px 5px 5px grey; background-color: white; font-size: 60px; padding: 60px; color: orange;  text-shadow: 4px 4px 8px #333;;margin-top: 10%;  margin-bottom: 10%}
 iframe{width: 37%; margin-left: 5.8%;margin-right: 5.8%; height: 700px; }
-a{background-color: orange; font-size: 40px; border-radius: 40px; color: black; text-align: center;text-decoration: none; padding: 10px; float: right; width: auto; margin-right: 5%; margin-left: 1%;margin-top: 2%; margin-bottom: 2%;}
-a:hover{ background-color: #3b5998;; color: white; }
-.nav {   width: 100%; background-color: rgba(333, 333, 333, 0.8);   position: fixed;   box-shadow: 0 1px 20px 5px grey;   left: 0;  top: 0;}
+.aNav{background-color: orange; font-size: 40px; border-radius: 40px; color: black; text-align: center;text-decoration: none; padding: 10px; float: right; width: auto; margin-right: 5%; margin-left: 1%;margin-top: 2%; margin-bottom: 2%;}
+.aNav:hover{ background-color: #3b5998;; color: white; }
+.nav {   width: 100%;  position: fixed;   box-shadow: 0 1px 20px 5px grey;   left: 0;  top: 0;}
 .logo{float: left;width: 30%; margin-right: 5%; margin-left: 1%;margin-top: 1%; margin-bottom: 1%;}
-
+.frameNOdisplay{display: none;}
 .divAccordion{padding-bottom: 2%; 	width: 100%; float: left;}
 .accordion {  background-color: white;  color: #444; font-size: 55px; cursor: pointer;  padding: 50px;  width: 90%; margin-right: 5%;margin-left: 5%; text-align: center;  border: none;  outline: none;  transition: 0.4s;}
 .active, .accordion:hover {background-color: #2687; color: black}
 .panel { background-color: white; width: 90%; margin-right: 5%;margin-left: 5%;margin-bottom: 0%;   display: none;  overflow: hidden; text-align: center;}
-.chat{width:auto; background-color:  #3b5998; text-decoration: none;  margin-left: 2%; border-radius: 30px; color: white; padding: 20px;}
+.chat{width:auto; background-color:  #3b5998; text-decoration: none;  margin-left: 1%; border-radius: 30px; color: white; padding: 10px;}
 
 }
 
